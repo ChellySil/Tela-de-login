@@ -1,0 +1,42 @@
+* {
+  paddin:0;
+  margin:0;
+}
+
+body {
+  font-family: "Arial";
+  height: 100%;
+  width: 100vh;
+  background: orange;
+}
+
+.tela{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.8);
+  padding: 50px;
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+}
+input {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+h1{
+  text-align: center;
+  padding: 15px;
+}
+button {
+  background-color: darkorange;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+}
